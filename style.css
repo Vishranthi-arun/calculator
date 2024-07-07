@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcb6e8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://th.bing.com/th/id/R.b2cf7fafd34d4e718d2cec23972cb2c7?rik=2xVwNzXV8YRkPg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fc2lWAYN.jpg&ehk=04zSq1dBA%2b2Rw0z1Y3VMZ%2b6QER7qXC6hVGGtMMmZeZ0%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .calculator {
+    background-color: #d79737;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+  }
+  
+  .display {
+    margin-bottom: 10px;
+  }
+  
+  #display {
+    width: 100%;
+    padding: 1px;
+    font-size: 50px;
+    text-align: right;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 10px;
+  }
+  
+  .btn {
+    background-color: #8f1717;
+    color: rgb(239, 243, 240);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 30px 10px 16px rgba(227, 209, 209, 0.1); 
+    transition: box-shadow 0.5s ease;
+  }
+  
+  
+  .btn:hover {
+    background-color: #c7e5c8;
+    box-shadow: 30px 10px 16px rgba(205, 201, 201, 0.104); 
+  }
+  
+  h1{padding-left:40%;
+    justify-content: center;
+
+  }
+  h1{
+    font-size: 75%;
+    
+  }
+  h2{
+    font-size: 100%;
+    padding-left:35% ;
+    justify-content: center;
+  }
